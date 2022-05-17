@@ -1,0 +1,88 @@
+.header{
+    min-height: var(--header-hight);
+    margin: 20px 0;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.header__logo img{
+    height: 18px;
+}
+
+.header.scroll-header {
+    box-shadow: var(--box-shadow);
+}
+
+.header-signup{
+    border: 1px solid #555;
+}
+
+.body__container{
+    display: flex;
+    gap: 20px;
+}
+
+.body__content {
+    width: 56%;
+}
+.body__title{
+    margin: 30px 0px;
+}
+
+.body__title span{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--text-tag-h-color);
+}
+
+.body__role-list{
+    display: flex;
+    gap: 20px;
+
+}
+
+.body__role-item{
+    display: block;
+    color: var(--text-bold-color);
+}
+
+.body__role-title{
+    padding: 10px 0px 5px;
+    margin-bottom: 10px;
+}
+
+.body__role-subtitle{
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.footer{
+    margin-bottom: 30px;
+}
+
+.footer__copyright {
+    padding-top: 10px;
+}
+.footer__copyright span,
+.footer__copyright a,
+.footer__privacy a{
+    font-size: var(--smaller-font-size);
+    color: var(--text-medium-color);
+}
+
+.body__image{
+    width: 44%;
+}
+
+.body__image img{
+    max-width: 150%;
+}

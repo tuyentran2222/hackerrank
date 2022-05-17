@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,405;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700&display=swap');
+:root {
+    --primary-color: #1ba94c;
+    --primary-light: #fcf1e7;
+    --primary-dark: #161723;
+    --secondary-color: #3d348b;
+    --font-color: #525252;
+    --bg-color: #fff;
+    --nav-color: #fff;
+    --heading-color: #011627;
+    --footer-color: #080713;
+    --border-radius: 6px;
+    --border-radius-full: 15px;
+    --border-color: transparent;
+    --border-color-light: #ddd;
+    --bg-success: #1ba94c;
+    --btn-bg: #e2e8f0;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #f35b04;
+    --secondary: #3d348b;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+    --link-color: #097bbf;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --header-hight: 70px;
+
+    --text-bold-color: #39424e;
+    --text-medium-color: #576871;
+    --text-tag-h-color: #738f93;
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-bold: 600;
+
+    /*========== Margenes Bottom ==========*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    --box-shadow: 0 3px 10px 0 rgb(115 143 147 / 30%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------TAG CSS------------------------*/
+html {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+body {
+    position: relative;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--font-color);
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.content-1 {
+    background-color: var(--bg-lightgray);
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+/*------------------MARGIN --------------------*/
+.mt-0-5 {
+    margin-top: 0.5rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-1-5 {
+    margin-top: 1.5rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-2-5 {
+    margin-top: 2.5rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.mt-4-5 {
+    margin-top: 4.5rem;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+
+.mb-0-5 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-1-5 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-2-5 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-4-5 {
+    margin-bottom: 4.5rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+/*------------------PADDING --------------------*/
+.pt-0-5 {
+    padding-top: .5rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-1-5 {
+    padding-top: 1.5rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pt-2-5 {
+    padding-top: 2.5rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pt-4-5 {
+    padding-top: 4.5rem;
+}
+
+.pt-6 {
+    padding-top: 6rem;
+}
+
+.pb-0-5 {
+    padding-bottom: .5rem;
+}
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pb-1-5 {
+    padding-bottom: 1.5rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pb-2-5 {
+    padding-bottom: 2.5rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}
+
+.pb-4-5 {
+    padding-bottom: 4.5rem;
+}
+
+.pb-6 {
+    padding-bottom: 6rem;
+}
+
+.btn--small{
+    font-size: 1rem;
+    color: var(--text-medium-color);
+    height: 32px;
+    min-width: 100px;
+    background-color: transparent;
+}
+
+.btn--large{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-medium-color);
+    min-height: 52px;
+    min-width: 200px;
+
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+.bg-success{
+    background-color: var(--bg-success);
+}
+
+.bg-white{
+    background-color: var(--white);
+}
+
+.text-white{
+    color: white;
+}
+
+.text-success{
+    color: var(--bg-success);
+}
+
+button {
+    border-radius: 3px;
+}
+.border-success{
+    border: 1px solid var(--bg-success);
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
