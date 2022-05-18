@@ -106,7 +106,7 @@
 }
 
 .breadcrumb__subtitle{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     color: var(--text-bold-color);
 }
@@ -123,7 +123,7 @@
 .content__title{
     font-size: 20px;
     font-weight: 700;
-    padding: 30px 0 20px;
+    padding: 50px 0 20px;
     color: var(--text-bold-color);
 }
 .content__cart-list{
@@ -135,6 +135,8 @@
     padding: 30px 25px;
     background-color: #fff;
     position: relative;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
 }
 
 .content__card-subtitle{
@@ -202,6 +204,22 @@
 }
 
 .topic-list{
-    gap: 0;
+    gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content__card-item{
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.content__card-item:hover{
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+
+.content__card-current-progress{
+    background: #999;
+    height: 5px;
+    width: 20%;
+    border-radius: 2px;
 }

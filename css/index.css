@@ -275,6 +275,14 @@ button {
     background-color: transparent;
 }
 
+.btn--medium{
+    font-size: 1rem;
+    color: var(--text-medium-color);
+    height: 42px;
+    min-width: 100px;
+    background-color: transparent;
+}
+
 .btn--large{
     font-size: 1.2rem;
     font-weight: 600;
@@ -286,6 +294,9 @@ button {
 
 h1{
     font-size: 2.5rem;
+}
+a{
+    color: var(--link-color);
 }
 
 h3{

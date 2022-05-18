@@ -1,0 +1,173 @@
+.track-badge-progress{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.track__progress-container{
+    height: 8px;
+    background-color: #e7eeef;
+    width: 100%;
+    margin: 10px 0px 10px;
+}
+
+.track__progress{
+    background: var(--bg-success);
+    height: 8px;
+    width: 80%;
+}
+
+.track__rank,
+.track__score{
+    font-size: 13px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.track__rank::after{
+    content: "";
+    width: 2px;
+    right: -15px;
+    background-color: #888;
+    height: 100%;
+    position: absolute;
+    transform: translateY(3px);
+}
+
+.challenges {
+    padding-top: 60px;
+    flex: 1;
+}
+
+#course{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.filters {
+    width: 270px;
+    margin-top: 60px;
+}
+
+.challenge__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.challenge__item:last-child{
+    margin-bottom: 50px;
+}
+.challenge__item-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.challenge__title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.challenge__details{
+    font-size: 13px;
+    color: var(--text-medium-color);
+    margin-bottom: 15px;
+}
+
+.challenge__desc{
+    font-size: 14px;
+    color: var(--text-bold-color);
+}
+
+.challenge__item-right i{
+    font-size: 24px;
+}
+
+.challenge__item-right button{
+    width: 150px;
+}
+
+.challenges_recommend{
+    margin-bottom: 50px;
+}
+
+.challenge__item:hover{
+    background-color: #eee;
+}
+
+.filters .filter__title{
+    text-transform: uppercase;
+    color: var(--text-tag-h-color);
+    font-size: 17px;
+}
+
+.filter__input-container{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 5px 0px;
+}
+
+.filter__input{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    appearance: none;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.filter__input:checked{
+    background-color: var(--bg-success);
+    color: #fff;
+    position: relative;
+}
+
+.filter__input::after{
+    content: "";
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    background: url(/images/check.png);
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+
+.filter__group{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.footer__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.body{
+    padding-bottom: 20px;
+}
+
+.footer{
+    padding-bottom: 20px;
+}
+
+/* .footer__link-item{
+    position: relative;
+} */
+
+.footer__link-item::after{
+    content: "|";
+    margin-left: 4px;
+}
+
+.footer__link-item:last-child::after{
+    content: "";
+}
