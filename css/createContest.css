@@ -1,0 +1,25 @@
+#create-contest .group{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#create-contest .group .label{
+    font-weight: 500;
+    min-width: 200px;
+}
+
+#create-contest .group input{
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0px 10px;
+    min-width: 300px;
+}
+
+#create-contest .group input.checkbox{
+    height: 15px;
+    width: 15px;
+    min-width: 10px;
+    margin-right: 10px;
+}
