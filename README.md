@@ -89,10 +89,10 @@
 
             }
             else if ($type_name == "boolean"){
-                $str .= "bool $name"."_item = stoi($arr_temp"."[i]) != 0;\n\n\t\t$name"."[i] = $name"."item;\n\t}";
+                $str .= "bool $name"."_item = stoi($arr_temp"."[i]) != 0;\n\n\t\t$name"."[i] = $name"."_item;\n\t}";
             }
             else{
-                $str .="bool $name"."_item = sto".$type_name[0]."($arr_temp"."[i]);\n\n\t\t$name"."[i] = $name"."item;\n\t}";
+                $str .="bool $name"."_item = sto".$type_name[0]."($arr_temp"."[i]);\n\n\t\t$name"."[i] = $name"."_item;\n\t}";
             }
             return $str;
         }
